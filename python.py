@@ -1,5 +1,5 @@
 
-from tkinter import Y
+
 
 
 a = 1
@@ -112,10 +112,18 @@ def func(x):
     y = x * x
     return Y
 func(2)
-print(Y)
+
 # %%
 tup = (1,2,3,8)
 tup = tup[1:-1]
 tup = tup[0]
 print(tup)
+# %%
+x = 6
+y = 2
+
+x = x // y
+y = y // x
+print(x)
+print(y)
 # %%
