@@ -45,5 +45,5 @@ INSERT INTO HISTORIAL (FECHA, PERRO, DESCRIPCION, MONTO) VALUES ("2005-11-15", "
 # Ejercicio 5: Realice una consulta multitabla que arroje el nombre de todos los perros cuyos dueños se llaman Pedro# 
 select p.NOMBRE
 FROM perro p join dueno d on
-p.DNI_DUENO=p.DNI
+p.DNI_DUENO=d.DNI
 where d.NOMBRE= 'Pedro'
